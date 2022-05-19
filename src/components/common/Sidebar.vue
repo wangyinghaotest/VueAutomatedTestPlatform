@@ -97,6 +97,42 @@ export default {
                     ]
 
                 },
+                // {
+                //     icon: 'el-icon-lx-cascades',
+                //     index: 'appium',
+                //     title: 'APP自动化',
+                //     subs: [
+                //         {
+                //             index: 'appProject',
+                //             title: 'APP项目管理'
+                //         },
+                //         {
+                //             index: 'appProjectPage',
+                //             title: 'APP页面管理'
+                //         },
+                //         {
+                //             index: 'appProjectPageElement',
+                //             title: 'APP页面元素管理'
+                //         },
+                //         {
+                //             index: 'appProjectTestCase',
+                //             title: 'APP测试用例'
+                //         },
+                //         {
+                //             index: 'appProjectTask',
+                //             title: 'APP任务管理'
+                //         },
+                //         {
+                //             index: 'appPositioning',
+                //             title: 'APP定位'
+                //         },
+                //         {
+                //             index: 'appElementOperation',
+                //             title: 'APP元素操作'
+                //         },
+                //     ]
+                //
+                // },
                 {
                     icon: 'el-icon-lx-cascades',
                     index: 'api',
@@ -125,6 +161,10 @@ export default {
                         {
                             index: 'apiEnvironment',
                             title: 'API环境设置'
+                        },
+                        {
+                            index: 'apiDatabase',
+                            title: 'API数据库管理'
                         },
                     ]
 

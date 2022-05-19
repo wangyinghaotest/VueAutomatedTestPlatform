@@ -1,6 +1,3 @@
-#python+django后端：
-    Github地址：https://github.com/wangyinghaotest/TestPlatformDjango
-# VueAutomatedTestPlatform
 #前端Vue-测试平台
     下载后运行npm install 如异常报错，
     运行如下命令：
@@ -52,6 +49,3 @@ API测试报告详情
 性能测试脚本
 ![img_11.png](img/img_11.png)
 
-#微信打赏：
-
-![img.png](img/img12.png)

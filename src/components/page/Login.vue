@@ -75,7 +75,6 @@
                         loginRequest(this.loginForm).then(data => {
                             console.log(data);
                             if (true === data.data.success){
-                              console.log(data.data.data.last_login)
                                 this.$message.success('登录成功');
                                 localStorage.setItem('ms_username', this.loginForm.username);
                                 localStorage.setItem('last_login', data.data.data.last_login);
@@ -112,10 +111,6 @@
                             console.log(data)
                         })
 
-
-                        // this.$message.success('登录成功');
-                        // localStorage.setItem('ms_username', this.loginForm.username);
-                        // this.$router.push('/');
                     } else {
                         this.$message.error('请输入账号和密码');
                         console.log('error submit!!');
@@ -126,21 +121,6 @@
 
             },
 
-            // submitForm() {
-            //     console.log(this.$ref.loginForm)
-            //     this.$refs.loginForm.validate(valid => {
-            //         if (valid) {
-            //             this.$message.success('登录成功');
-            //             localStorage.setItem('ms_username', this.loginForm.username);
-            //             this.$router.push('/');
-            //         } else {
-            //             this.$message.error('请输入账号和密码');
-            //             console.log('error submit!!');
-            //             return false;
-            //         }
-            //     });
-            //     alert("测试")
-            // },
         },
         created() {
         }
